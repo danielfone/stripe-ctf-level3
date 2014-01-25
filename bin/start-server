@@ -1,2 +1,4 @@
 #!/bin/sh
 
+app_path="$(dirname "$0")/../search.rb"
+exec ruby $app_path -p 9090

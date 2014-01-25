@@ -19,13 +19,13 @@ cleanup() {
 
 trap cleanup INT TERM QUIT
 
-#server_path="$(dirname "$0")/start-server"
-#run $server_path --master
+server_path="$(dirname "$0")/start-server"
+run $server_path --master
 #run $server_path --id 1
 #run $server_path --id 2
 #run $server_path --id 3
 
-run ruby ./search.rb -p 9090
+#run ruby ./search.rb -p 9090
 
 echo "$0: servers started"
 
