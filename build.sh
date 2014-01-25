@@ -1,4 +1,4 @@
 #!/bin/sh
 
-gem install bundler
+sudo gem install bundler
 bundle install
