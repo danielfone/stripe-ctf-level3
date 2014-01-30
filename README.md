@@ -3,7 +3,7 @@
 Friends don't let friends use scala.
 
 * Set up a basic sinatra server to implement the API
-* Shell out to grep to do actual searching. Single node, no index. O_o
+* [Shell out to grep](https://github.com/danielfone/stripe-ctf-level3/blob/master/search.rb#L24) to do actual searching. Single node, no index. O_o
 
 
 ---
