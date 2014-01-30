@@ -1,3 +1,15 @@
+## Solution
+
+Friends don't let friends use scala.
+
+* Set up a basic sinatra server to implement the API
+* Shell out to grep to do actual searching. Single node, no index. O_o
+
+
+---
+
+
+
 # Level 3
 
 ## API
